@@ -1,8 +1,8 @@
 {
   "headerLinks": {
-    "discord": "Discord",
-    "community": "Forum",
-    "documentation": "Documentation"
+    "discord": "建议",
+    "community": "论坛",
+    "documentation": "文档资料"
   },
   "sidebarLinks": {
     "categories": {
@@ -224,26 +224,26 @@
     "width": "宽度",
     "height": "高度",
     "bitrate": "码率",
-    "bitrateDescription": "Default : 2000000 or 2Mbits/s. Use bits per second, so 10Mbits/s would be 10000000. For H264, 1080p30 a high quality bitrate would be 15Mbits/s or more. Maximum bitrate is 25Mbits/s (25000000), but much over 17Mbits/s won't show noticeable improvement at 1080p30.",
+    "bitrateDescription": "默认值：2000000或2Mbits / s使用每秒位，因此10Mbit / s将为10000000。对于H264、1080p30，高质量比特率将为15Mbit / s或更高。最大比特率是25Mbits / s（25000000），但在1080p30分辨率下，超过17Mbits / s的速度将不会显示出明显的改善。",
     "bitrateHelpBlock": "码率",
-    "rotation": "Rotation",
-    "rotationDescription": "Sets the rotation of the image in the viewfinder and resulting image. This can take any value from 0 upwards, but due to hardware constraints only 0, 90, 180, and 270 degree rotations are supported",
-    "rotationHelpBlock": "Rotation",
-    "contrast": "Contrast",
-    "contrastDescription": "Sets the contrast of the image. 0 is the default",
-    "contrastHelpBlock": "Contrast",
-    "brightness": "Brightness",
-    "brightnessDescription": "Sets the brightness of the image. 50 is the default. 0 is black, 100 is white",
-    "brightnessHelpBlock": "Brightness",
-    "autowhitebalance": "Automatic White Balance",
-    "autowhitebalanceDescription": "Default Value: Auto. Modes for which colour temperature ranges (K) are available have these settings in brackets.",
-    "autowhitebalanceHelpBlock": "White Balance",
+    "rotation": "镜头方向",
+    "rotationDescription": "设置取景器中图像的旋转度和结果图像。该值可以取0到0之间的任何值，但是由于硬件限制，仅支持0、90、180和270度旋转",
+    "rotationHelpBlock": "镜头方向",
+    "contrast": "对比度",
+    "contrastDescription": "设置图像的对比度。默认为0",
+    "contrastHelpBlock": "对比度",
+    "brightness": "亮度",
+    "brightnessDescription": "设置图像的亮度。默认值为50。 0是黑色，100是白色",
+    "brightnessHelpBlock": "亮度值",
+    "autowhitebalance": "自动白平衡",
+    "autowhitebalanceDescription": "默认值：自动。色温范围（K）可用的模式在括号内有这些设置。",
+    "autowhitebalanceHelpBlock": "白平衡",
     "framesPrSecond": "帧率",
-    "framesPrSecondDescription": "Default value = 20. At present, the minimum frame rate allowed is 2fps, and the maximum is 30fps",
+    "framesPrSecond0Description": "默认值=20。目前，允许的最小帧速率为2fps，最大为30fps",
     "framesPrSecondHelpBlock": "FPS",
     "cameraFlip": "图像翻转",
     "cameraFlipDescription": "选择图像方向.水平或垂直翻转.",
-    "cameraFlipHelpBlock": "Orientation",
+    "cameraFlipHelpBlock": "方向",
     "buttons": {
       "start": "打开相机",
       "stop": "关闭相机",
@@ -273,13 +273,13 @@
       "viewVpnInterface": "查看VPN接口",
       "logfile": "日志",
       "interfaces": "接口",
-      "ZTconnectionInfo": "ZeroTier Con Info",
-      "ZTlistPeers": "ZeroTier list peers"
+      "ZTconnectionInfo": "ZeroTier链接信息",
+      "ZTlistPeers": "ZeroTier列表"
     },
     "tips": {
       "title": "提示",
-      "1": "国内用户适用蒲公英VPN，国际用户适用ZeroTier VPN.",
-      "2": ""
+      "1": "国内用户推荐蒲公英VPN和自建openVPN。",
+      "2": "国际用户适用ZeroTier VPN。"
     }
   },
   "settings": {
@@ -342,13 +342,13 @@
       "title": "树莓派",
       "rebootNotification": {
         "title": "确认重启？",
-        "content": "确认你已存储所有设置",
+        "content": "确认已存储所有设置",
         "cancel": "取消",
         "approve": "立即重启"
       },
       "shutdownNotification": {
         "title": "确认关机？",
-        "content": "确认你已经存储所有设置",
+        "content": "确认已存储所有设置",
         "cancel": "取消",
         "approve": "立即关机"
       },
@@ -364,7 +364,7 @@
       },
       "customTerminal": {
         "title": "定制终端",
-        "helpText": "example, type <code>ls</code> to list all files in the main directory"
+        "helpText": "例如，输入<code> ls </ code>列出主目录中的所有文件"
       },
       "tips": {
         "title": "故障排除技巧",
@@ -374,27 +374,27 @@
     "led": {
       "title": "LED 控制",
       "statusLedTitle": "板载状态LED",
-      "statusLedSubTitle": "Select a status to enable the onboard status (green) LED",
-      "statusLedHelpBlock": "Select a tigger status",
-      "powerLedTitle": "OnBoard Power LED",
-      "powerLedSubTitle": "Select a status to enable the onboard power (red) LED. <br /><b>Note!</b> Not all boards is equiped with power LED.",
-      "powerLedHelpBlock": "Select a tigger status"
+      "statusLedSubTitle": "选择一个状态以启用板载状态（绿色）LED",
+      "statusLedHelpBlock": "选择一个标志状态",
+      "powerLedTitle": "板载电源LED",
+      "powerLedSubTitle": "选择一个状态以启用板载电源（红色）LED。 <br /> <b>注意！</ b>并非所有主板都配备了电源LED。",
+      "powerLedHelpBlock": "选择一个标志状态"
     }
   },
   "uavcast": {
-    "title": "Review LogFiles",
-    "troubleshootingText": "If you need any assistance or have a issue you want to address, then download application logfiles and submit them to",
+    "title": "查看日志文件",
+    "troubleshootingText": "如果您需要任何帮助或要解决的问题，请下载应用程序日志文件并将其提交到",
     "buttons": {
       "uavcast": "UAVcast",
       "dynDns": "DynDNS",
       "video": "Video",
       "telemetry": "Telemetry",
       "navio": "Navio",
-      "downloadLogfiles": "Download Logfiles"
+      "downloadLogfiles": "下载日志文件"
     },
     "tips": {
-      "title": "Troubleshooting Tips",
-      "1": "If you encounter any problems then please Download log files and post them at"
+      "title": "故障排除技巧",
+      "1": "如果您遇到任何问题，请下载日志文件并将其发布在"
     }
   }
 }
